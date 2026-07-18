@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Raw dataset
+PlantVillage-Dataset/
+PlantVillage-Dataset
+data/raw/
+data/images/
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+models/
+
+# Logs
+lightning_logs/
+wandb/
+runs/
+
+# Environment
+.env
+.venv/
+venv/

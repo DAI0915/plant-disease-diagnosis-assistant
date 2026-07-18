@@ -1,0 +1,551 @@
+id,text,label,label_id,split,source
+1,Can wet weather cause this condition on a corn plant?,cause,1,validation,synthetic_llm_assisted
+2,Can a peach tree recover from the leaf problem?,treatment,2,train,synthetic_llm_assisted
+3,Why did my grapevine develop the issue shown in the image?,cause,1,train,synthetic_llm_assisted
+4,Is my corn plant safe to keep near healthy plants?,general,4,test,synthetic_llm_assisted
+5,Can I still harvest from a cherry tree with this disease?,general,4,train,synthetic_llm_assisted
+6,What preventive steps protect a potato plant from the diagnosed problem?,prevention,3,train,synthetic_llm_assisted
+7,How does the leaf problem usually appear on a corn plant?,symptoms,0,train,synthetic_llm_assisted
+8,Can wet weather cause the diagnosed problem on a apple tree?,cause,1,validation,synthetic_llm_assisted
+9,What preventive steps protect a strawberry plant from the issue shown in the image?,prevention,3,train,synthetic_llm_assisted
+10,How can I recognize this condition on my potato plant?,symptoms,0,train,synthetic_llm_assisted
+11,How does a strawberry plant become affected by the infection?,cause,1,train,synthetic_llm_assisted
+12,Should I change how I water a tomato plant with this plant disease?,treatment,2,train,synthetic_llm_assisted
+13,Why did my tomato plant develop the issue shown in the image?,cause,1,validation,synthetic_llm_assisted
+14,Can wet weather cause the issue shown in the image on a tomato plant?,cause,1,train,synthetic_llm_assisted
+15,How does this disease usually appear on a grapevine?,symptoms,0,test,synthetic_llm_assisted
+16,How does a pepper plant become affected by the issue shown in the image?,cause,1,train,synthetic_llm_assisted
+17,What symptoms should I look for on my tomato plant?,symptoms,0,train,synthetic_llm_assisted
+18,How does a apple tree become affected by this condition?,cause,1,train,synthetic_llm_assisted
+19,What preventive steps protect a potato plant from the infection?,prevention,3,train,synthetic_llm_assisted
+20,How serious is the issue shown in the image for a squash plant?,general,4,train,synthetic_llm_assisted
+21,Should I change how I water a cherry tree with this disease?,treatment,2,train,synthetic_llm_assisted
+22,How does a citrus tree become affected by the leaf problem?,cause,1,train,synthetic_llm_assisted
+23,How does the diagnosed problem usually appear on a apple tree?,symptoms,0,train,synthetic_llm_assisted
+24,What preventive steps protect a apple tree from the infection?,prevention,3,train,synthetic_llm_assisted
+25,Should I change how I water a tomato plant with the infection?,treatment,2,validation,synthetic_llm_assisted
+26,Can a plant recover from this disease?,treatment,2,train,synthetic_llm_assisted
+27,Do I need to isolate my peach tree after this diagnosis?,treatment,2,train,synthetic_llm_assisted
+28,How can I tell whether my plant has the issue shown in the image?,symptoms,0,train,synthetic_llm_assisted
+29,Can wet weather cause this disease on a plant?,cause,1,train,synthetic_llm_assisted
+30,Can a squash plant recover from this plant disease?,treatment,2,train,synthetic_llm_assisted
+31,Should I change how I water a peach tree with the issue shown in the image?,treatment,2,train,synthetic_llm_assisted
+32,How quickly can this disease progress on a pepper plant?,general,4,train,synthetic_llm_assisted
+33,How should I water my apple tree to prevent this disease?,prevention,3,train,synthetic_llm_assisted
+34,What is the safest way to manage the diagnosed problem?,treatment,2,test,synthetic_llm_assisted
+35,What preventive steps protect a plant from the infection?,prevention,3,train,synthetic_llm_assisted
+36,How quickly can this disease progress on a citrus tree?,general,4,train,synthetic_llm_assisted
+37,How serious is this disease for a grapevine?,general,4,train,synthetic_llm_assisted
+38,Can wet weather cause the issue shown in the image on a corn plant?,cause,1,train,synthetic_llm_assisted
+39,Can wet weather cause this disease on a strawberry plant?,cause,1,validation,synthetic_llm_assisted
+40,Can I still harvest from a citrus tree with this plant disease?,general,4,train,synthetic_llm_assisted
+41,What actions are recommended after a diagnosis of the leaf problem?,treatment,2,train,synthetic_llm_assisted
+42,What actions are recommended after a diagnosis of this disease?,treatment,2,train,synthetic_llm_assisted
+43,How can I recognize this condition on my plant?,symptoms,0,test,synthetic_llm_assisted
+44,Why did my peach tree develop the diagnosed problem?,cause,1,train,synthetic_llm_assisted
+45,How can I recognize this disease on my cherry tree?,symptoms,0,train,synthetic_llm_assisted
+46,How serious is the diagnosed problem for a peach tree?,general,4,train,synthetic_llm_assisted
+47,How does the infection usually appear on a tomato plant?,symptoms,0,validation,synthetic_llm_assisted
+48,Should I change how I water a pepper plant with the issue shown in the image?,treatment,2,train,synthetic_llm_assisted
+49,Can a potato plant recover from this condition?,treatment,2,train,synthetic_llm_assisted
+50,How quickly can this condition progress on a citrus tree?,general,4,train,synthetic_llm_assisted
+51,Can this plant disease kill my tomato plant?,general,4,test,synthetic_llm_assisted
+52,How quickly can the infection progress on a corn plant?,general,4,train,synthetic_llm_assisted
+53,How can I recognize the leaf problem on my pepper plant?,symptoms,0,train,synthetic_llm_assisted
+54,How can I recognize this disease on my citrus tree?,symptoms,0,train,synthetic_llm_assisted
+55,How quickly can the diagnosed problem progress on a potato plant?,general,4,train,synthetic_llm_assisted
+56,How serious is this plant disease for a corn plant?,general,4,train,synthetic_llm_assisted
+57,What early warning signs should I check for on my pepper plant?,symptoms,0,train,synthetic_llm_assisted
+58,How serious is the infection for a tomato plant?,general,4,train,synthetic_llm_assisted
+59,How should I water my squash plant to prevent this disease?,prevention,3,validation,synthetic_llm_assisted
+60,How does the infection usually appear on a pepper plant?,symptoms,0,train,synthetic_llm_assisted
+61,Can I still harvest from a potato plant with the issue shown in the image?,general,4,train,synthetic_llm_assisted
+62,Can the infection kill my peach tree?,general,4,validation,synthetic_llm_assisted
+63,How does a grapevine become affected by the infection?,cause,1,train,synthetic_llm_assisted
+64,Can the diagnosed problem kill my peach tree?,general,4,train,synthetic_llm_assisted
+65,What preventive steps protect a citrus tree from the infection?,prevention,3,train,synthetic_llm_assisted
+66,What preventive steps protect a strawberry plant from the diagnosed problem?,prevention,3,validation,synthetic_llm_assisted
+67,How can I prevent this disease in the future?,prevention,3,train,synthetic_llm_assisted
+68,What preventive steps protect a potato plant from this disease?,prevention,3,test,synthetic_llm_assisted
+69,How does a plant become affected by the infection?,cause,1,train,synthetic_llm_assisted
+70,Is this plant disease contagious between plants?,general,4,train,synthetic_llm_assisted
+71,Why did my tomato plant develop this plant disease?,cause,1,train,synthetic_llm_assisted
+72,Why did my strawberry plant develop the infection?,cause,1,train,synthetic_llm_assisted
+73,How can I recognize this condition on my corn plant?,symptoms,0,train,synthetic_llm_assisted
+74,Can I still harvest from a grapevine with this condition?,general,4,train,synthetic_llm_assisted
+75,How can I tell whether my tomato plant has this condition?,symptoms,0,train,synthetic_llm_assisted
+76,Should I change how I water a squash plant with this disease?,treatment,2,train,synthetic_llm_assisted
+77,How can I recognize the infection on my grapevine?,symptoms,0,test,synthetic_llm_assisted
+78,Should I change how I water a apple tree with the infection?,treatment,2,train,synthetic_llm_assisted
+79,How can I tell whether my pepper plant has the leaf problem?,symptoms,0,train,synthetic_llm_assisted
+80,What preventive steps protect a cherry tree from this plant disease?,prevention,3,train,synthetic_llm_assisted
+81,What changes in the leaves are typical of this disease?,symptoms,0,train,synthetic_llm_assisted
+82,What preventive steps protect a cherry tree from the diagnosed problem?,prevention,3,train,synthetic_llm_assisted
+83,What environmental conditions encourage the infection?,cause,1,train,synthetic_llm_assisted
+84,Can a strawberry plant recover from the leaf problem?,treatment,2,train,synthetic_llm_assisted
+85,How can I tell whether my plant has this disease?,symptoms,0,test,synthetic_llm_assisted
+86,How quickly can the diagnosed problem progress on a tomato plant?,general,4,train,synthetic_llm_assisted
+87,Can I still harvest from a pepper plant with this condition?,general,4,train,synthetic_llm_assisted
+88,How serious is this plant disease for a peach tree?,general,4,validation,synthetic_llm_assisted
+89,How can I protect nearby plants from this condition?,prevention,3,train,synthetic_llm_assisted
+90,How can I tell whether my grapevine has the diagnosed problem?,symptoms,0,train,synthetic_llm_assisted
+91,Can I still harvest from a plant with this disease?,general,4,train,synthetic_llm_assisted
+92,Can the issue shown in the image kill my citrus tree?,general,4,train,synthetic_llm_assisted
+93,Should I get a professional diagnosis for my peach tree?,general,4,train,synthetic_llm_assisted
+94,How can I recognize the issue shown in the image on my grapevine?,symptoms,0,train,synthetic_llm_assisted
+95,Do I need to isolate my cherry tree after this diagnosis?,treatment,2,train,synthetic_llm_assisted
+96,Why did my peach tree develop the issue shown in the image?,cause,1,train,synthetic_llm_assisted
+97,What does the confidence score mean for this strawberry plant diagnosis?,general,4,train,synthetic_llm_assisted
+98,Can a peach tree recover from the diagnosed problem?,treatment,2,train,synthetic_llm_assisted
+99,How can I recognize the issue shown in the image on my squash plant?,symptoms,0,train,synthetic_llm_assisted
+100,How serious is this condition for a plant?,general,4,train,synthetic_llm_assisted
+101,How can I recognize this disease on my grapevine?,symptoms,0,train,synthetic_llm_assisted
+102,How should I water my plant to prevent this disease?,prevention,3,test,synthetic_llm_assisted
+103,How can I recognize this plant disease on my cherry tree?,symptoms,0,train,synthetic_llm_assisted
+104,How should I water my strawberry plant to prevent this disease?,prevention,3,train,synthetic_llm_assisted
+105,How quickly can the diagnosed problem progress on a peach tree?,general,4,train,synthetic_llm_assisted
+106,Can I still harvest from a apple tree with this condition?,general,4,validation,synthetic_llm_assisted
+107,What preventive steps protect a citrus tree from this plant disease?,prevention,3,validation,synthetic_llm_assisted
+108,Should I change how I water a cherry tree with the issue shown in the image?,treatment,2,train,synthetic_llm_assisted
+109,How serious is this condition for a tomato plant?,general,4,validation,synthetic_llm_assisted
+110,How should I treat this plant disease?,treatment,2,test,synthetic_llm_assisted
+111,How does a squash plant become affected by the diagnosed problem?,cause,1,test,synthetic_llm_assisted
+112,Are resistant varieties useful against this disease?,prevention,3,train,synthetic_llm_assisted
+113,How does a peach tree become affected by the diagnosed problem?,cause,1,train,synthetic_llm_assisted
+114,How quickly can this plant disease progress on a apple tree?,general,4,train,synthetic_llm_assisted
+115,Should I change how I water a squash plant with the issue shown in the image?,treatment,2,train,synthetic_llm_assisted
+116,How can I recognize this plant disease on my apple tree?,symptoms,0,train,synthetic_llm_assisted
+117,How can I recognize this plant disease on my tomato plant?,symptoms,0,train,synthetic_llm_assisted
+118,Why did my plant develop this disease?,cause,1,train,synthetic_llm_assisted
+119,Why did my grapevine develop this plant disease?,cause,1,train,synthetic_llm_assisted
+120,How can I recognize the leaf problem on my potato plant?,symptoms,0,validation,synthetic_llm_assisted
+121,What early warning signs should I check for on my citrus tree?,symptoms,0,train,synthetic_llm_assisted
+122,How can I protect nearby plants from the issue shown in the image?,prevention,3,validation,synthetic_llm_assisted
+123,What does an infected plant look like?,symptoms,0,train,synthetic_llm_assisted
+124,Why did my plant develop the infection?,cause,1,train,synthetic_llm_assisted
+125,How do I stop the leaf problem from returning?,prevention,3,train,synthetic_llm_assisted
+126,How serious is this plant disease for a citrus tree?,general,4,train,synthetic_llm_assisted
+127,How quickly can the infection progress on a squash plant?,general,4,train,synthetic_llm_assisted
+128,What preventive steps protect a cherry tree from the leaf problem?,prevention,3,train,synthetic_llm_assisted
+129,Can a apple tree recover from the infection?,treatment,2,train,synthetic_llm_assisted
+130,How can I recognize the infection on my corn plant?,symptoms,0,train,synthetic_llm_assisted
+131,Can this disease kill my squash plant?,general,4,test,synthetic_llm_assisted
+132,Can wet weather cause the issue shown in the image on a squash plant?,cause,1,test,synthetic_llm_assisted
+133,Why are these spots appearing on my potato plant?,cause,1,train,synthetic_llm_assisted
+134,Can the leaf problem spread to nearby plants?,general,4,train,synthetic_llm_assisted
+135,How should I water my cherry tree to prevent the issue shown in the image?,prevention,3,train,synthetic_llm_assisted
+136,How does a tomato plant become affected by the infection?,cause,1,train,synthetic_llm_assisted
+137,How can I tell whether my corn plant has the diagnosed problem?,symptoms,0,validation,synthetic_llm_assisted
+138,Should I remove affected leaves from my peach tree?,treatment,2,train,synthetic_llm_assisted
+139,Do I need to isolate my pepper plant after this diagnosis?,treatment,2,validation,synthetic_llm_assisted
+140,Can I still harvest from a cherry tree with this condition?,general,4,validation,synthetic_llm_assisted
+141,Can a pepper plant recover from this condition?,treatment,2,train,synthetic_llm_assisted
+142,What organism is responsible for the leaf problem?,cause,1,train,synthetic_llm_assisted
+143,What preventive steps protect a strawberry plant from this disease?,prevention,3,train,synthetic_llm_assisted
+144,What preventive steps protect a potato plant from this condition?,prevention,3,train,synthetic_llm_assisted
+145,Why did my citrus tree develop this condition?,cause,1,train,synthetic_llm_assisted
+146,How can I recognize the leaf problem on my cherry tree?,symptoms,0,train,synthetic_llm_assisted
+147,How should I water my citrus tree to prevent this condition?,prevention,3,train,synthetic_llm_assisted
+148,How should I treat the leaf problem?,treatment,2,train,synthetic_llm_assisted
+149,How do I stop the infection from returning?,prevention,3,train,synthetic_llm_assisted
+150,How should I water my tomato plant to prevent the diagnosed problem?,prevention,3,test,synthetic_llm_assisted
+151,How is the diagnosed problem spread between plants?,cause,1,train,synthetic_llm_assisted
+152,Can a squash plant recover from the infection?,treatment,2,train,synthetic_llm_assisted
+153,Why did my pepper plant develop the leaf problem?,cause,1,train,synthetic_llm_assisted
+154,How can I tell whether my tomato plant has the leaf problem?,symptoms,0,train,synthetic_llm_assisted
+155,Why did my apple tree develop the issue shown in the image?,cause,1,train,synthetic_llm_assisted
+156,How does the infection usually appear on a citrus tree?,symptoms,0,train,synthetic_llm_assisted
+157,How can I recognize the diagnosed problem on my peach tree?,symptoms,0,train,synthetic_llm_assisted
+158,Should I change how I water a grapevine with the infection?,treatment,2,train,synthetic_llm_assisted
+159,Can the issue shown in the image kill my peach tree?,general,4,train,synthetic_llm_assisted
+160,How does the leaf problem usually appear on a peach tree?,symptoms,0,test,synthetic_llm_assisted
+161,Can wet weather cause this plant disease on a apple tree?,cause,1,train,synthetic_llm_assisted
+162,How does a citrus tree become affected by this condition?,cause,1,train,synthetic_llm_assisted
+163,Why did my tomato plant develop the infection?,cause,1,train,synthetic_llm_assisted
+164,Why did my peach tree develop this condition?,cause,1,train,synthetic_llm_assisted
+165,What symptoms should I look for on my potato plant?,symptoms,0,train,synthetic_llm_assisted
+166,What preventive steps protect a strawberry plant from the leaf problem?,prevention,3,train,synthetic_llm_assisted
+167,Can wet weather cause the infection on a tomato plant?,cause,1,train,synthetic_llm_assisted
+168,What preventive steps protect a apple tree from this condition?,prevention,3,test,synthetic_llm_assisted
+169,What can I do to keep my pepper plant healthy?,prevention,3,train,synthetic_llm_assisted
+170,How can I tell whether my corn plant has this condition?,symptoms,0,train,synthetic_llm_assisted
+171,How should I water my pepper plant to prevent the infection?,prevention,3,train,synthetic_llm_assisted
+172,How should I water my grapevine to prevent this condition?,prevention,3,train,synthetic_llm_assisted
+173,Can the leaf problem kill my tomato plant?,general,4,train,synthetic_llm_assisted
+174,How serious is this disease for a potato plant?,general,4,train,synthetic_llm_assisted
+175,How serious is the issue shown in the image for a grapevine?,general,4,train,synthetic_llm_assisted
+176,What symptoms should I look for on my apple tree?,symptoms,0,train,synthetic_llm_assisted
+177,Why are these spots appearing on my pepper plant?,cause,1,train,synthetic_llm_assisted
+178,Can a apple tree recover from this disease?,treatment,2,train,synthetic_llm_assisted
+179,Why did my cherry tree develop the diagnosed problem?,cause,1,train,synthetic_llm_assisted
+180,How should I water my peach tree to prevent the leaf problem?,prevention,3,train,synthetic_llm_assisted
+181,What symptoms should I look for on my squash plant?,symptoms,0,train,synthetic_llm_assisted
+182,Should I remove affected leaves from my corn plant?,treatment,2,train,synthetic_llm_assisted
+183,What are the common signs of the diagnosed problem?,symptoms,0,train,synthetic_llm_assisted
+184,Why did my apple tree develop this disease?,cause,1,train,synthetic_llm_assisted
+185,How can I recognize the diagnosed problem on my tomato plant?,symptoms,0,train,synthetic_llm_assisted
+186,How quickly can the issue shown in the image progress on a corn plant?,general,4,train,synthetic_llm_assisted
+187,Can wet weather cause this disease on a cherry tree?,cause,1,train,synthetic_llm_assisted
+188,How does the issue shown in the image usually appear on a plant?,symptoms,0,train,synthetic_llm_assisted
+189,Can this condition kill my corn plant?,general,4,train,synthetic_llm_assisted
+190,Why did my cherry tree develop this disease?,cause,1,validation,synthetic_llm_assisted
+191,Can a strawberry plant recover from this plant disease?,treatment,2,train,synthetic_llm_assisted
+192,How should I water my plant to prevent the infection?,prevention,3,train,synthetic_llm_assisted
+193,Should I change how I water a strawberry plant with this condition?,treatment,2,validation,synthetic_llm_assisted
+194,Can a citrus tree recover from this disease?,treatment,2,train,synthetic_llm_assisted
+195,What should I do to help my peach tree recover?,treatment,2,train,synthetic_llm_assisted
+196,Should I change how I water a citrus tree with the diagnosed problem?,treatment,2,test,synthetic_llm_assisted
+197,How should I water my tomato plant to prevent this condition?,prevention,3,train,synthetic_llm_assisted
+198,Should I change how I water a cherry tree with the leaf problem?,treatment,2,train,synthetic_llm_assisted
+199,How should I water my grapevine to prevent this disease?,prevention,3,validation,synthetic_llm_assisted
+200,How quickly can this disease progress on a tomato plant?,general,4,train,synthetic_llm_assisted
+201,How can I prevent this condition in the future?,prevention,3,train,synthetic_llm_assisted
+202,Should I change how I water a plant with the diagnosed problem?,treatment,2,train,synthetic_llm_assisted
+203,Can a tomato plant recover from this plant disease?,treatment,2,train,synthetic_llm_assisted
+204,Why did my potato plant develop the diagnosed problem?,cause,1,train,synthetic_llm_assisted
+205,How should I water my strawberry plant to prevent the leaf problem?,prevention,3,train,synthetic_llm_assisted
+206,Can a squash plant recover from the leaf problem?,treatment,2,train,synthetic_llm_assisted
+207,Can this disease kill my peach tree?,general,4,validation,synthetic_llm_assisted
+208,Should I change how I water a squash plant with the diagnosed problem?,treatment,2,validation,synthetic_llm_assisted
+209,Can the leaf problem kill my potato plant?,general,4,validation,synthetic_llm_assisted
+210,What preventive steps protect a squash plant from the diagnosed problem?,prevention,3,validation,synthetic_llm_assisted
+211,How should I water my apple tree to prevent the infection?,prevention,3,train,synthetic_llm_assisted
+212,How serious is this plant disease for a squash plant?,general,4,train,synthetic_llm_assisted
+213,How does the leaf problem usually appear on a grapevine?,symptoms,0,validation,synthetic_llm_assisted
+214,How can I recognize this condition on my citrus tree?,symptoms,0,train,synthetic_llm_assisted
+215,How quickly can the infection progress on a apple tree?,general,4,train,synthetic_llm_assisted
+216,Can a potato plant recover from this disease?,treatment,2,test,synthetic_llm_assisted
+217,How should I water my pepper plant to prevent this disease?,prevention,3,train,synthetic_llm_assisted
+218,What preventive steps protect a corn plant from the infection?,prevention,3,validation,synthetic_llm_assisted
+219,Can a citrus tree recover from the issue shown in the image?,treatment,2,train,synthetic_llm_assisted
+220,Can a pepper plant recover from the diagnosed problem?,treatment,2,train,synthetic_llm_assisted
+221,Should I change how I water a grapevine with the diagnosed problem?,treatment,2,train,synthetic_llm_assisted
+222,How does the diagnosed problem usually appear on a potato plant?,symptoms,0,train,synthetic_llm_assisted
+223,Can this condition kill my grapevine?,general,4,train,synthetic_llm_assisted
+224,Should I get a professional diagnosis for my potato plant?,general,4,train,synthetic_llm_assisted
+225,Can I still harvest from a corn plant with this condition?,general,4,test,synthetic_llm_assisted
+226,Should I remove affected leaves from my cherry tree?,treatment,2,train,synthetic_llm_assisted
+227,What sanitation practices help prevent this plant disease?,prevention,3,train,synthetic_llm_assisted
+228,Can I still harvest from a squash plant with the diagnosed problem?,general,4,train,synthetic_llm_assisted
+229,Can wet weather cause the diagnosed problem on a grapevine?,cause,1,train,synthetic_llm_assisted
+230,Should I change how I water a corn plant with the issue shown in the image?,treatment,2,validation,synthetic_llm_assisted
+231,How serious is the leaf problem for a potato plant?,general,4,train,synthetic_llm_assisted
+232,How quickly can the infection progress on a cherry tree?,general,4,train,synthetic_llm_assisted
+233,Should I remove fallen leaves to prevent the infection?,prevention,3,train,synthetic_llm_assisted
+234,How can I stop this condition from getting worse?,treatment,2,train,synthetic_llm_assisted
+235,How does this condition usually appear on a squash plant?,symptoms,0,train,synthetic_llm_assisted
+236,Should I remove affected leaves from my plant?,treatment,2,train,synthetic_llm_assisted
+237,How does this plant disease usually appear on a strawberry plant?,symptoms,0,train,synthetic_llm_assisted
+238,What sanitation practices help prevent the issue shown in the image?,prevention,3,train,synthetic_llm_assisted
+239,How serious is the diagnosed problem for a potato plant?,general,4,train,synthetic_llm_assisted
+240,Can a strawberry plant recover from the diagnosed problem?,treatment,2,test,synthetic_llm_assisted
+241,How does a tomato plant become affected by the issue shown in the image?,cause,1,train,synthetic_llm_assisted
+242,How should I water my peach tree to prevent this plant disease?,prevention,3,train,synthetic_llm_assisted
+243,Should I remove fallen leaves to prevent this plant disease?,prevention,3,train,synthetic_llm_assisted
+244,Are resistant varieties useful against the diagnosed problem?,prevention,3,train,synthetic_llm_assisted
+245,What preventive steps protect a citrus tree from the issue shown in the image?,prevention,3,train,synthetic_llm_assisted
+246,Why did my citrus tree develop this plant disease?,cause,1,train,synthetic_llm_assisted
+247,How can I stop the leaf problem from getting worse?,treatment,2,train,synthetic_llm_assisted
+248,Can wet weather cause this disease on a grapevine?,cause,1,train,synthetic_llm_assisted
+249,How does a strawberry plant become affected by the diagnosed problem?,cause,1,train,synthetic_llm_assisted
+250,How can I prevent the infection in the future?,prevention,3,train,synthetic_llm_assisted
+251,How serious is this condition for a corn plant?,general,4,train,synthetic_llm_assisted
+252,How should I treat the diagnosed problem?,treatment,2,train,synthetic_llm_assisted
+253,What does the confidence score mean for this tomato plant diagnosis?,general,4,train,synthetic_llm_assisted
+254,How quickly can this condition progress on a strawberry plant?,general,4,test,synthetic_llm_assisted
+255,Can a potato plant recover from the diagnosed problem?,treatment,2,validation,synthetic_llm_assisted
+256,Can I still harvest from a potato plant with the leaf problem?,general,4,train,synthetic_llm_assisted
+257,Should I get a professional diagnosis for my strawberry plant?,general,4,validation,synthetic_llm_assisted
+258,How should I water my citrus tree to prevent this disease?,prevention,3,test,synthetic_llm_assisted
+259,How can I tell whether my cherry tree has this condition?,symptoms,0,train,synthetic_llm_assisted
+260,Why did my tomato plant develop this disease?,cause,1,train,synthetic_llm_assisted
+261,How quickly can this plant disease progress on a plant?,general,4,train,synthetic_llm_assisted
+262,Can wet weather cause this condition on a peach tree?,cause,1,test,synthetic_llm_assisted
+263,How can I tell whether my strawberry plant has the issue shown in the image?,symptoms,0,train,synthetic_llm_assisted
+264,Could contaminated tools have caused the leaf problem?,cause,1,train,synthetic_llm_assisted
+265,How does this plant disease usually appear on a squash plant?,symptoms,0,train,synthetic_llm_assisted
+266,How does a potato plant become affected by this plant disease?,cause,1,test,synthetic_llm_assisted
+267,Can this disease kill my citrus tree?,general,4,train,synthetic_llm_assisted
+268,Is my potato plant safe to keep near healthy plants?,general,4,train,synthetic_llm_assisted
+269,Should I change how I water a corn plant with this disease?,treatment,2,test,synthetic_llm_assisted
+270,Can wet weather cause this plant disease on a grapevine?,cause,1,train,synthetic_llm_assisted
+271,What causes the infection?,cause,1,train,synthetic_llm_assisted
+272,Why did my corn plant develop the infection?,cause,1,train,synthetic_llm_assisted
+273,Can wet weather cause the infection on a potato plant?,cause,1,train,synthetic_llm_assisted
+274,How can I tell whether my potato plant has the infection?,symptoms,0,validation,synthetic_llm_assisted
+275,What should I do to help my squash plant recover?,treatment,2,train,synthetic_llm_assisted
+276,Can I still harvest from a squash plant with this condition?,general,4,train,synthetic_llm_assisted
+277,Can a corn plant recover from the diagnosed problem?,treatment,2,train,synthetic_llm_assisted
+278,Can a cherry tree recover from the diagnosed problem?,treatment,2,train,synthetic_llm_assisted
+279,Why did my strawberry plant develop the diagnosed problem?,cause,1,train,synthetic_llm_assisted
+280,What symptoms should I look for on my corn plant?,symptoms,0,train,synthetic_llm_assisted
+281,How should I water my citrus tree to prevent the infection?,prevention,3,train,synthetic_llm_assisted
+282,Can a potato plant recover from the leaf problem?,treatment,2,train,synthetic_llm_assisted
+283,Can I still harvest from a strawberry plant with the infection?,general,4,train,synthetic_llm_assisted
+284,How does a peach tree become affected by the leaf problem?,cause,1,train,synthetic_llm_assisted
+285,Are resistant varieties useful against this plant disease?,prevention,3,train,synthetic_llm_assisted
+286,How should I water my tomato plant to prevent the leaf problem?,prevention,3,test,synthetic_llm_assisted
+287,How does the infection usually appear on a squash plant?,symptoms,0,train,synthetic_llm_assisted
+288,How should I water my grapevine to prevent this plant disease?,prevention,3,train,synthetic_llm_assisted
+289,What sanitation practices help prevent this disease?,prevention,3,train,synthetic_llm_assisted
+290,Should I change how I water a peach tree with this condition?,treatment,2,test,synthetic_llm_assisted
+291,Can wet weather cause this disease on a squash plant?,cause,1,train,synthetic_llm_assisted
+292,How can I recognize this condition on my cherry tree?,symptoms,0,train,synthetic_llm_assisted
+293,Can a peach tree recover from this condition?,treatment,2,test,synthetic_llm_assisted
+294,Should I change how I water a potato plant with this disease?,treatment,2,train,synthetic_llm_assisted
+295,How should I water my cherry tree to prevent the diagnosed problem?,prevention,3,train,synthetic_llm_assisted
+296,Can a apple tree recover from this plant disease?,treatment,2,train,synthetic_llm_assisted
+297,What does the confidence score mean for this potato plant diagnosis?,general,4,train,synthetic_llm_assisted
+298,Can wet weather cause the issue shown in the image on a peach tree?,cause,1,train,synthetic_llm_assisted
+299,How should I water my peach tree to prevent the issue shown in the image?,prevention,3,train,synthetic_llm_assisted
+300,How serious is the infection for a plant?,general,4,train,synthetic_llm_assisted
+301,How should I water my strawberry plant to prevent this plant disease?,prevention,3,train,synthetic_llm_assisted
+302,Can wet weather cause the diagnosed problem on a tomato plant?,cause,1,train,synthetic_llm_assisted
+303,Can wet weather cause this condition on a grapevine?,cause,1,train,synthetic_llm_assisted
+304,How can I tell whether my pepper plant has the issue shown in the image?,symptoms,0,train,synthetic_llm_assisted
+305,How can I tell whether my plant has the diagnosed problem?,symptoms,0,train,synthetic_llm_assisted
+306,Should I change how I water a grapevine with this plant disease?,treatment,2,train,synthetic_llm_assisted
+307,Should I change how I water a strawberry plant with the leaf problem?,treatment,2,test,synthetic_llm_assisted
+308,What preventive steps protect a citrus tree from this condition?,prevention,3,train,synthetic_llm_assisted
+309,How can I recognize the diagnosed problem on my potato plant?,symptoms,0,train,synthetic_llm_assisted
+310,Can a strawberry plant recover from the infection?,treatment,2,test,synthetic_llm_assisted
+311,Can wet weather cause the infection on a cherry tree?,cause,1,train,synthetic_llm_assisted
+312,How serious is the diagnosed problem for a strawberry plant?,general,4,train,synthetic_llm_assisted
+313,How should I water my corn plant to prevent this disease?,prevention,3,test,synthetic_llm_assisted
+314,Why did my strawberry plant develop this disease?,cause,1,train,synthetic_llm_assisted
+315,Can wet weather cause the issue shown in the image on a cherry tree?,cause,1,test,synthetic_llm_assisted
+316,How serious is this plant disease for a strawberry plant?,general,4,train,synthetic_llm_assisted
+317,How can I stop the infection from getting worse?,treatment,2,validation,synthetic_llm_assisted
+318,What does an infected grapevine look like?,symptoms,0,train,synthetic_llm_assisted
+319,Should I change how I water a potato plant with the diagnosed problem?,treatment,2,train,synthetic_llm_assisted
+320,How does the diagnosed problem usually appear on a grapevine?,symptoms,0,validation,synthetic_llm_assisted
+321,Can wet weather cause the leaf problem on a peach tree?,cause,1,train,synthetic_llm_assisted
+322,What preventive steps protect a pepper plant from the diagnosed problem?,prevention,3,train,synthetic_llm_assisted
+323,How is the leaf problem spread between plants?,cause,1,train,synthetic_llm_assisted
+324,How can I protect nearby plants from this disease?,prevention,3,train,synthetic_llm_assisted
+325,Can the diagnosed problem kill my apple tree?,general,4,train,synthetic_llm_assisted
+326,Should I change how I water a plant with the infection?,treatment,2,train,synthetic_llm_assisted
+327,Can a cherry tree recover from this plant disease?,treatment,2,train,synthetic_llm_assisted
+328,How should I treat the infection?,treatment,2,train,synthetic_llm_assisted
+329,Can a tomato plant recover from this condition?,treatment,2,train,synthetic_llm_assisted
+330,Should I change how I water a cherry tree with the infection?,treatment,2,train,synthetic_llm_assisted
+331,How should I water my apple tree to prevent the leaf problem?,prevention,3,train,synthetic_llm_assisted
+332,Which visible signs indicate the diagnosed problem?,symptoms,0,train,synthetic_llm_assisted
+333,How does the diagnosed problem usually appear on a cherry tree?,symptoms,0,train,synthetic_llm_assisted
+334,How can I recognize the diagnosed problem on my plant?,symptoms,0,train,synthetic_llm_assisted
+335,What can I do to keep my apple tree healthy?,prevention,3,train,synthetic_llm_assisted
+336,How can I tell whether my citrus tree has this disease?,symptoms,0,train,synthetic_llm_assisted
+337,Why did my plant develop the leaf problem?,cause,1,train,synthetic_llm_assisted
+338,Can wet weather cause this plant disease on a potato plant?,cause,1,train,synthetic_llm_assisted
+339,How can I recognize the leaf problem on my squash plant?,symptoms,0,train,synthetic_llm_assisted
+340,What symptoms should I look for on my plant?,symptoms,0,train,synthetic_llm_assisted
+341,Why did my pepper plant develop the diagnosed problem?,cause,1,train,synthetic_llm_assisted
+342,How can I recognize the diagnosed problem on my squash plant?,symptoms,0,train,synthetic_llm_assisted
+343,How should I water my squash plant to prevent this plant disease?,prevention,3,train,synthetic_llm_assisted
+344,How quickly can the leaf problem progress on a cherry tree?,general,4,train,synthetic_llm_assisted
+345,How does a grapevine become affected by the leaf problem?,cause,1,test,synthetic_llm_assisted
+346,How does the issue shown in the image usually appear on a tomato plant?,symptoms,0,train,synthetic_llm_assisted
+347,How should I water my strawberry plant to prevent this condition?,prevention,3,train,synthetic_llm_assisted
+348,Can I still harvest from a citrus tree with the leaf problem?,general,4,train,synthetic_llm_assisted
+349,How should I water my pepper plant to prevent the diagnosed problem?,prevention,3,test,synthetic_llm_assisted
+350,Can the issue shown in the image kill my plant?,general,4,train,synthetic_llm_assisted
+351,Can a plant recover from the leaf problem?,treatment,2,train,synthetic_llm_assisted
+352,What preventive steps protect a peach tree from the issue shown in the image?,prevention,3,train,synthetic_llm_assisted
+353,How can I tell whether my strawberry plant has this condition?,symptoms,0,test,synthetic_llm_assisted
+354,Why are these spots appearing on my grapevine?,cause,1,train,synthetic_llm_assisted
+355,How does a squash plant become affected by this plant disease?,cause,1,train,synthetic_llm_assisted
+356,Can I still harvest from a peach tree with the leaf problem?,general,4,train,synthetic_llm_assisted
+357,How serious is the issue shown in the image for a pepper plant?,general,4,train,synthetic_llm_assisted
+358,How serious is the issue shown in the image for a citrus tree?,general,4,train,synthetic_llm_assisted
+359,How can I recognize the leaf problem on my apple tree?,symptoms,0,validation,synthetic_llm_assisted
+360,Should I change how I water a tomato plant with the diagnosed problem?,treatment,2,train,synthetic_llm_assisted
+361,Can this plant disease kill my peach tree?,general,4,train,synthetic_llm_assisted
+362,What preventive steps protect a apple tree from the leaf problem?,prevention,3,train,synthetic_llm_assisted
+363,What preventive steps protect a plant from this plant disease?,prevention,3,train,synthetic_llm_assisted
+364,Can wet weather cause the leaf problem on a corn plant?,cause,1,validation,synthetic_llm_assisted
+365,What does an infected pepper plant look like?,symptoms,0,train,synthetic_llm_assisted
+366,What preventive steps protect a plant from the issue shown in the image?,prevention,3,train,synthetic_llm_assisted
+367,How can I tell whether my corn plant has this plant disease?,symptoms,0,train,synthetic_llm_assisted
+368,Why did my citrus tree develop the issue shown in the image?,cause,1,train,synthetic_llm_assisted
+369,How should I water my corn plant to prevent the issue shown in the image?,prevention,3,train,synthetic_llm_assisted
+370,How quickly can the infection progress on a potato plant?,general,4,train,synthetic_llm_assisted
+371,Can the leaf problem kill my peach tree?,general,4,train,synthetic_llm_assisted
+372,How can I tell whether my strawberry plant has the infection?,symptoms,0,test,synthetic_llm_assisted
+373,How quickly can this plant disease progress on a squash plant?,general,4,train,synthetic_llm_assisted
+374,How can I recognize the issue shown in the image on my strawberry plant?,symptoms,0,train,synthetic_llm_assisted
+375,What can I do to keep my citrus tree healthy?,prevention,3,train,synthetic_llm_assisted
+376,How serious is the infection for a squash plant?,general,4,test,synthetic_llm_assisted
+377,Is my cherry tree safe to keep near healthy plants?,general,4,train,synthetic_llm_assisted
+378,Can a apple tree recover from this condition?,treatment,2,train,synthetic_llm_assisted
+379,Can better airflow reduce the risk of the infection?,prevention,3,train,synthetic_llm_assisted
+380,What preventive steps protect a tomato plant from this disease?,prevention,3,train,synthetic_llm_assisted
+381,What is the safest way to manage the leaf problem?,treatment,2,train,synthetic_llm_assisted
+382,Do I need to isolate my apple tree after this diagnosis?,treatment,2,validation,synthetic_llm_assisted
+383,Should I change how I water a apple tree with the issue shown in the image?,treatment,2,train,synthetic_llm_assisted
+384,Should I remove affected leaves from my citrus tree?,treatment,2,train,synthetic_llm_assisted
+385,Why did my tomato plant develop the leaf problem?,cause,1,train,synthetic_llm_assisted
+386,How can I recognize the leaf problem on my strawberry plant?,symptoms,0,validation,synthetic_llm_assisted
+387,Should I change how I water a pepper plant with the infection?,treatment,2,validation,synthetic_llm_assisted
+388,How can I recognize the diagnosed problem on my cherry tree?,symptoms,0,train,synthetic_llm_assisted
+389,Should I remove affected leaves from my tomato plant?,treatment,2,train,synthetic_llm_assisted
+390,How does the infection usually appear on a plant?,symptoms,0,train,synthetic_llm_assisted
+391,Can the infection kill my grapevine?,general,4,train,synthetic_llm_assisted
+392,Should I change how I water a apple tree with this plant disease?,treatment,2,train,synthetic_llm_assisted
+393,What symptoms should I look for on my peach tree?,symptoms,0,train,synthetic_llm_assisted
+394,How does a plant become affected by this disease?,cause,1,train,synthetic_llm_assisted
+395,What preventive steps protect a grapevine from the leaf problem?,prevention,3,train,synthetic_llm_assisted
+396,What is the safest way to manage this plant disease?,treatment,2,train,synthetic_llm_assisted
+397,Can a cherry tree recover from this disease?,treatment,2,validation,synthetic_llm_assisted
+398,Can wet weather cause the issue shown in the image on a citrus tree?,cause,1,train,synthetic_llm_assisted
+399,What preventive steps protect a peach tree from this plant disease?,prevention,3,train,synthetic_llm_assisted
+400,What can I do immediately after seeing this plant disease?,treatment,2,train,synthetic_llm_assisted
+401,Why did my peach tree develop the leaf problem?,cause,1,train,synthetic_llm_assisted
+402,How can I recognize this plant disease on my grapevine?,symptoms,0,train,synthetic_llm_assisted
+403,How can I recognize the diagnosed problem on my pepper plant?,symptoms,0,train,synthetic_llm_assisted
+404,Can I still harvest from a strawberry plant with the issue shown in the image?,general,4,test,synthetic_llm_assisted
+405,What does the confidence score mean for this citrus tree diagnosis?,general,4,train,synthetic_llm_assisted
+406,How can I stop the issue shown in the image from getting worse?,treatment,2,train,synthetic_llm_assisted
+407,Can the infection kill my apple tree?,general,4,train,synthetic_llm_assisted
+408,What early warning signs should I check for on my cherry tree?,symptoms,0,train,synthetic_llm_assisted
+409,Why did my tomato plant develop the diagnosed problem?,cause,1,train,synthetic_llm_assisted
+410,"Is the infection caused by a fungus, bacterium, virus, or pest?",cause,1,train,synthetic_llm_assisted
+411,What environmental conditions encourage this plant disease?,cause,1,validation,synthetic_llm_assisted
+412,What preventive steps protect a apple tree from the diagnosed problem?,prevention,3,validation,synthetic_llm_assisted
+413,How does this plant disease usually appear on a grapevine?,symptoms,0,train,synthetic_llm_assisted
+414,How should I water my corn plant to prevent the infection?,prevention,3,validation,synthetic_llm_assisted
+415,How does a strawberry plant become affected by the issue shown in the image?,cause,1,train,synthetic_llm_assisted
+416,How does a corn plant become affected by the infection?,cause,1,validation,synthetic_llm_assisted
+417,Why are these spots appearing on my citrus tree?,cause,1,validation,synthetic_llm_assisted
+418,How serious is this plant disease for a grapevine?,general,4,train,synthetic_llm_assisted
+419,How can I tell whether my grapevine has this plant disease?,symptoms,0,train,synthetic_llm_assisted
+420,How should I water my grapevine to prevent the infection?,prevention,3,train,synthetic_llm_assisted
+421,Can a citrus tree recover from the infection?,treatment,2,train,synthetic_llm_assisted
+422,Can wet weather cause the leaf problem on a cherry tree?,cause,1,train,synthetic_llm_assisted
+423,How can I tell whether my squash plant has the infection?,symptoms,0,validation,synthetic_llm_assisted
+424,How does a cherry tree become affected by this plant disease?,cause,1,test,synthetic_llm_assisted
+425,What preventive steps protect a potato plant from the leaf problem?,prevention,3,train,synthetic_llm_assisted
+426,Should I remove affected leaves from my pepper plant?,treatment,2,train,synthetic_llm_assisted
+427,What can I do immediately after seeing the issue shown in the image?,treatment,2,train,synthetic_llm_assisted
+428,What preventive steps protect a strawberry plant from the infection?,prevention,3,train,synthetic_llm_assisted
+429,How quickly can the issue shown in the image progress on a grapevine?,general,4,test,synthetic_llm_assisted
+430,What preventive steps protect a peach tree from the leaf problem?,prevention,3,train,synthetic_llm_assisted
+431,Why did my squash plant develop the infection?,cause,1,test,synthetic_llm_assisted
+432,How does this disease usually appear on a apple tree?,symptoms,0,train,synthetic_llm_assisted
+433,Should I change how I water a strawberry plant with the issue shown in the image?,treatment,2,train,synthetic_llm_assisted
+434,Can wet weather cause the issue shown in the image on a strawberry plant?,cause,1,train,synthetic_llm_assisted
+435,How can I tell whether my apple tree has this plant disease?,symptoms,0,train,synthetic_llm_assisted
+436,Can a grapevine recover from this condition?,treatment,2,train,synthetic_llm_assisted
+437,How quickly can the issue shown in the image progress on a strawberry plant?,general,4,train,synthetic_llm_assisted
+438,How quickly can this condition progress on a squash plant?,general,4,test,synthetic_llm_assisted
+439,Can the issue shown in the image kill my tomato plant?,general,4,train,synthetic_llm_assisted
+440,Should I change how I water a corn plant with this plant disease?,treatment,2,train,synthetic_llm_assisted
+441,Can I still harvest from a plant with this plant disease?,general,4,train,synthetic_llm_assisted
+442,What preventive steps protect a tomato plant from this plant disease?,prevention,3,train,synthetic_llm_assisted
+443,Should I change how I water a strawberry plant with the diagnosed problem?,treatment,2,train,synthetic_llm_assisted
+444,Do I need to isolate my citrus tree after this diagnosis?,treatment,2,train,synthetic_llm_assisted
+445,What preventive steps protect a citrus tree from the diagnosed problem?,prevention,3,train,synthetic_llm_assisted
+446,What actions are recommended after a diagnosis of the diagnosed problem?,treatment,2,train,synthetic_llm_assisted
+447,How serious is this disease for a tomato plant?,general,4,train,synthetic_llm_assisted
+448,How can I recognize the leaf problem on my tomato plant?,symptoms,0,train,synthetic_llm_assisted
+449,What preventive steps protect a squash plant from this disease?,prevention,3,validation,synthetic_llm_assisted
+450,Are spots or discoloration common with the leaf problem?,symptoms,0,test,synthetic_llm_assisted
+451,How should I water my cherry tree to prevent this condition?,prevention,3,train,synthetic_llm_assisted
+452,How should I water my peach tree to prevent this condition?,prevention,3,train,synthetic_llm_assisted
+453,Can I still harvest from a cherry tree with the diagnosed problem?,general,4,train,synthetic_llm_assisted
+454,How can I tell whether my tomato plant has this plant disease?,symptoms,0,train,synthetic_llm_assisted
+455,How can I recognize this plant disease on my citrus tree?,symptoms,0,validation,synthetic_llm_assisted
+456,Can I still harvest from a plant with the diagnosed problem?,general,4,train,synthetic_llm_assisted
+457,How can I tell whether my potato plant has the leaf problem?,symptoms,0,train,synthetic_llm_assisted
+458,How should I water my tomato plant to prevent the infection?,prevention,3,train,synthetic_llm_assisted
+459,Can a grapevine recover from this plant disease?,treatment,2,train,synthetic_llm_assisted
+460,What preventive steps protect a corn plant from this plant disease?,prevention,3,test,synthetic_llm_assisted
+461,Could contaminated tools have caused the infection?,cause,1,train,synthetic_llm_assisted
+462,How should I water my corn plant to prevent the leaf problem?,prevention,3,train,synthetic_llm_assisted
+463,How does a grapevine become affected by this plant disease?,cause,1,train,synthetic_llm_assisted
+464,Why did my strawberry plant develop this plant disease?,cause,1,validation,synthetic_llm_assisted
+465,How does the diagnosed problem usually appear on a strawberry plant?,symptoms,0,test,synthetic_llm_assisted
+466,Why did my strawberry plant develop this condition?,cause,1,train,synthetic_llm_assisted
+467,How should I treat this condition?,treatment,2,train,synthetic_llm_assisted
+468,Should I change how I water a squash plant with this condition?,treatment,2,train,synthetic_llm_assisted
+469,Why did my strawberry plant develop the leaf problem?,cause,1,train,synthetic_llm_assisted
+470,How does a pepper plant become affected by the diagnosed problem?,cause,1,train,synthetic_llm_assisted
+471,Should I change how I water a peach tree with this plant disease?,treatment,2,train,synthetic_llm_assisted
+472,Should I remove fallen leaves to prevent the diagnosed problem?,prevention,3,train,synthetic_llm_assisted
+473,How does this plant disease usually appear on a tomato plant?,symptoms,0,train,synthetic_llm_assisted
+474,How can I tell whether my corn plant has the issue shown in the image?,symptoms,0,train,synthetic_llm_assisted
+475,Can better airflow reduce the risk of the leaf problem?,prevention,3,train,synthetic_llm_assisted
+476,What sanitation practices help prevent the diagnosed problem?,prevention,3,train,synthetic_llm_assisted
+477,How can I tell whether my cherry tree has the leaf problem?,symptoms,0,train,synthetic_llm_assisted
+478,How does this condition usually appear on a pepper plant?,symptoms,0,test,synthetic_llm_assisted
+479,Should I change how I water a plant with this condition?,treatment,2,train,synthetic_llm_assisted
+480,Can I still harvest from a strawberry plant with the diagnosed problem?,general,4,test,synthetic_llm_assisted
+481,Can a citrus tree recover from this plant disease?,treatment,2,train,synthetic_llm_assisted
+482,How can I tell whether my citrus tree has this plant disease?,symptoms,0,train,synthetic_llm_assisted
+483,Should I get a professional diagnosis for my pepper plant?,general,4,validation,synthetic_llm_assisted
+484,How quickly can this disease progress on a grapevine?,general,4,validation,synthetic_llm_assisted
+485,How can I recognize the leaf problem on my grapevine?,symptoms,0,train,synthetic_llm_assisted
+486,What causes the diagnosed problem?,cause,1,test,synthetic_llm_assisted
+487,What organism is responsible for this plant disease?,cause,1,train,synthetic_llm_assisted
+488,Can the issue shown in the image kill my corn plant?,general,4,train,synthetic_llm_assisted
+489,Why did my plant develop the diagnosed problem?,cause,1,test,synthetic_llm_assisted
+490,What preventive steps protect a cherry tree from this disease?,prevention,3,train,synthetic_llm_assisted
+491,What preventive steps protect a peach tree from the infection?,prevention,3,train,synthetic_llm_assisted
+492,Why did my citrus tree develop the leaf problem?,cause,1,train,synthetic_llm_assisted
+493,How does the diagnosed problem usually appear on a tomato plant?,symptoms,0,train,synthetic_llm_assisted
+494,How can I tell whether my cherry tree has the diagnosed problem?,symptoms,0,train,synthetic_llm_assisted
+495,Why did my potato plant develop this disease?,cause,1,train,synthetic_llm_assisted
+496,How can I prevent this plant disease in the future?,prevention,3,test,synthetic_llm_assisted
+497,Can this condition kill my strawberry plant?,general,4,train,synthetic_llm_assisted
+498,How should I water my peach tree to prevent the infection?,prevention,3,train,synthetic_llm_assisted
+499,Can the issue shown in the image kill my squash plant?,general,4,train,synthetic_llm_assisted
+500,What preventive steps protect a tomato plant from this condition?,prevention,3,train,synthetic_llm_assisted
+501,What are the symptoms,symptoms,0,train,manual_short_question_v1
+502,What are the signs,symptoms,0,train,manual_short_question_v1
+503,What should I look for,symptoms,0,train,manual_short_question_v1
+504,How can I recognize it,symptoms,0,train,manual_short_question_v1
+505,How do I know if it has this disease,symptoms,0,train,manual_short_question_v1
+506,What does this disease look like,symptoms,0,train,manual_short_question_v1
+507,What signs appear on the leaves,symptoms,0,train,manual_short_question_v1
+508,How can I identify it,symptoms,0,validation,manual_short_question_v1
+509,What visible signs should I check,symptoms,0,test,manual_short_question_v1
+510,How does it usually look,symptoms,0,test,manual_short_question_v1
+511,What causes it,cause,1,train,manual_short_question_v1
+512,Why did this happen,cause,1,train,manual_short_question_v1
+513,Why is my plant like this,cause,1,train,manual_short_question_v1
+514,What is the reason,cause,1,train,manual_short_question_v1
+515,What caused this disease,cause,1,train,manual_short_question_v1
+516,Why are the leaves damaged,cause,1,train,manual_short_question_v1
+517,Where does this problem come from,cause,1,train,manual_short_question_v1
+518,What is behind this condition,cause,1,validation,manual_short_question_v1
+519,Why is this happening to my plant,cause,1,test,manual_short_question_v1
+520,What may have caused it,cause,1,test,manual_short_question_v1
+521,How can I treat it,treatment,2,train,manual_short_question_v1
+522,How do I treat it,treatment,2,train,manual_short_question_v1
+523,What should I do,treatment,2,train,manual_short_question_v1
+524,What should I do now,treatment,2,train,manual_short_question_v1
+525,How can I fix it,treatment,2,train,manual_short_question_v1
+526,Can I save the plant,treatment,2,train,manual_short_question_v1
+527,What actions should I take,treatment,2,train,manual_short_question_v1
+528,How do I cure it,treatment,2,train,manual_short_question_v1
+529,What is the best treatment,treatment,2,validation,manual_short_question_v1
+530,How should I deal with it,treatment,2,test,manual_short_question_v1
+531,How can I prevent it,prevention,3,train,manual_short_question_v1
+532,How do I prevent it,prevention,3,train,manual_short_question_v1
+533,How can I avoid it next time,prevention,3,train,manual_short_question_v1
+534,How do I stop it from happening again,prevention,3,train,manual_short_question_v1
+535,What can I do to prevent this,prevention,3,train,manual_short_question_v1
+536,How can I protect my plant,prevention,3,train,manual_short_question_v1
+537,How do I keep this from spreading,prevention,3,train,manual_short_question_v1
+538,How can I reduce the risk,prevention,3,validation,manual_short_question_v1
+539,What prevention steps should I take,prevention,3,test,manual_short_question_v1
+540,How can I stop this next time,prevention,3,test,manual_short_question_v1
+541,What is wrong with it,general,4,train,manual_short_question_v1
+542,What is the diagnosis,general,4,train,manual_short_question_v1
+543,Is my plant healthy,general,4,train,manual_short_question_v1
+544,Can you summarize the result,general,4,train,manual_short_question_v1
+545,What does the prediction mean,general,4,train,manual_short_question_v1
+546,What condition does it have,general,4,train,manual_short_question_v1
+547,What did the model find,general,4,train,manual_short_question_v1
+548,Can you explain the result,general,4,validation,manual_short_question_v1
+549,What is happening to my plant,general,4,test,manual_short_question_v1
+550,Tell me about this result,general,4,test,manual_short_question_v1

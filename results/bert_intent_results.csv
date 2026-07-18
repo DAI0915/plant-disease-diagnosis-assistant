@@ -1,0 +1,2 @@
+model,test_loss,test_accuracy,test_precision,test_recall,test_f1
+DistilBERT Intent Classifier,0.1171870726650044,0.9491525292396545,0.9538462162017822,0.949999988079071,0.9484559297561646

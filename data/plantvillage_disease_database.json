@@ -1,0 +1,890 @@
+{
+  "Apple___Apple_scab": {
+    "class_index": 0,
+    "dataset_key": "Apple___Apple_scab",
+    "plant": "Apple",
+    "condition": "Apple scab",
+    "status": "diseased",
+    "symptoms": [
+      "Olive-green to brown velvety leaf spots",
+      "Dark scabby fruit lesions",
+      "Premature leaf drop in severe cases"
+    ],
+    "cause": "Venturia inaequalis",
+    "treatment": [
+      "Remove or shred fallen leaves and infected fruit",
+      "Improve airflow by pruning",
+      "Consult local guidance before fungicide use"
+    ],
+    "prevention": [
+      "Use resistant cultivars",
+      "Reduce prolonged leaf wetness",
+      "Sanitize fallen debris"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Apple___Black_rot": {
+    "class_index": 1,
+    "dataset_key": "Apple___Black_rot",
+    "plant": "Apple",
+    "condition": "Black rot",
+    "status": "diseased",
+    "symptoms": [
+      "Purple-edged leaf spots with tan centers",
+      "Dark fruit rot",
+      "Branch cankers or dead bark"
+    ],
+    "cause": "Botryosphaeria obtusa (also called Diplodia seriata)",
+    "treatment": [
+      "Remove mummified fruit and dead or cankered wood",
+      "Prune with clean tools",
+      "Reduce tree stress"
+    ],
+    "prevention": [
+      "Maintain tree vigor",
+      "Avoid bark and fruit injury",
+      "Remove dead tissue that may harbor the pathogen"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Apple___Cedar_apple_rust": {
+    "class_index": 2,
+    "dataset_key": "Apple___Cedar_apple_rust",
+    "plant": "Apple",
+    "condition": "Cedar-apple rust",
+    "status": "diseased",
+    "symptoms": [
+      "Yellow to bright-orange leaf spots",
+      "Dark dots within lesions",
+      "Tube-like structures on leaf undersides"
+    ],
+    "cause": "Gymnosporangium species",
+    "treatment": [
+      "Remove heavily affected leaves when practical",
+      "Inspect nearby junipers for rust galls",
+      "Seek local fungicide guidance if needed"
+    ],
+    "prevention": [
+      "Use resistant cultivars",
+      "Reduce proximity to heavily infected junipers where practical",
+      "Monitor during wet spring weather"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Apple___healthy": {
+    "class_index": 3,
+    "dataset_key": "Apple___healthy",
+    "plant": "Apple",
+    "condition": "Healthy",
+    "status": "healthy",
+    "symptoms": [
+      "No characteristic disease lesions are visible",
+      "Leaf appearance is broadly consistent with a healthy plant"
+    ],
+    "cause": "No specific disease was detected by the image classifier.",
+    "treatment": [
+      "No disease treatment is recommended from this image alone",
+      "Continue normal care and routine inspection"
+    ],
+    "prevention": [
+      "Maintain good airflow",
+      "Avoid prolonged leaf wetness",
+      "Inspect regularly for new symptoms"
+    ],
+    "warning": "A healthy prediction does not rule out early, hidden, root, or non-visible problems."
+  },
+  "Blueberry___healthy": {
+    "class_index": 4,
+    "dataset_key": "Blueberry___healthy",
+    "plant": "Blueberry",
+    "condition": "Healthy",
+    "status": "healthy",
+    "symptoms": [
+      "No characteristic disease lesions are visible",
+      "Leaf appearance is broadly consistent with a healthy plant"
+    ],
+    "cause": "No specific disease was detected by the image classifier.",
+    "treatment": [
+      "No disease treatment is recommended from this image alone",
+      "Continue normal care and routine inspection"
+    ],
+    "prevention": [
+      "Maintain good airflow",
+      "Avoid prolonged leaf wetness",
+      "Inspect regularly for new symptoms"
+    ],
+    "warning": "A healthy prediction does not rule out early, hidden, root, or non-visible problems."
+  },
+  "Cherry_(including_sour)___Powdery_mildew": {
+    "class_index": 5,
+    "dataset_key": "Cherry_(including_sour)___Powdery_mildew",
+    "plant": "Cherry (including sour cherry)",
+    "condition": "Powdery mildew",
+    "status": "diseased",
+    "symptoms": [
+      "White or gray powdery growth",
+      "Curled or distorted young leaves",
+      "Reduced shoot growth"
+    ],
+    "cause": "Podosphaera species",
+    "treatment": [
+      "Remove badly infected tissue",
+      "Improve airflow",
+      "Use locally approved treatment only when necessary"
+    ],
+    "prevention": [
+      "Avoid excessive nitrogen",
+      "Prune for ventilation",
+      "Monitor young foliage"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Cherry_(including_sour)___healthy": {
+    "class_index": 6,
+    "dataset_key": "Cherry_(including_sour)___healthy",
+    "plant": "Cherry (including sour cherry)",
+    "condition": "Healthy",
+    "status": "healthy",
+    "symptoms": [
+      "No characteristic disease lesions are visible",
+      "Leaf appearance is broadly consistent with a healthy plant"
+    ],
+    "cause": "No specific disease was detected by the image classifier.",
+    "treatment": [
+      "No disease treatment is recommended from this image alone",
+      "Continue normal care and routine inspection"
+    ],
+    "prevention": [
+      "Maintain good airflow",
+      "Avoid prolonged leaf wetness",
+      "Inspect regularly for new symptoms"
+    ],
+    "warning": "A healthy prediction does not rule out early, hidden, root, or non-visible problems."
+  },
+  "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+    "class_index": 7,
+    "dataset_key": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+    "plant": "Corn (maize)",
+    "condition": "Gray leaf spot",
+    "status": "diseased",
+    "symptoms": [
+      "Long rectangular gray-to-tan lesions",
+      "Lesions limited by veins",
+      "Large areas of dead tissue in severe cases"
+    ],
+    "cause": "Cercospora zeae-maydis or Cercospora zeina",
+    "treatment": [
+      "Assess severity and crop stage",
+      "Follow local residue and fungicide guidance",
+      "Avoid irrigation that prolongs leaf wetness"
+    ],
+    "prevention": [
+      "Use resistant hybrids",
+      "Rotate crops where appropriate",
+      "Manage infected residue"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Corn_(maize)___Common_rust_": {
+    "class_index": 8,
+    "dataset_key": "Corn_(maize)___Common_rust_",
+    "plant": "Corn (maize)",
+    "condition": "Common rust",
+    "status": "diseased",
+    "symptoms": [
+      "Cinnamon-brown pustules",
+      "Powdery spores",
+      "Yellowing or drying under severe infection"
+    ],
+    "cause": "Puccinia sorghi",
+    "treatment": [
+      "Monitor disease progress",
+      "Use local recommendations if treatment is justified",
+      "Remove volunteer corn where practical"
+    ],
+    "prevention": [
+      "Plant resistant hybrids",
+      "Scout during cool humid periods",
+      "Maintain balanced fertility"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Corn_(maize)___Northern_Leaf_Blight": {
+    "class_index": 9,
+    "dataset_key": "Corn_(maize)___Northern_Leaf_Blight",
+    "plant": "Corn (maize)",
+    "condition": "Northern corn leaf blight",
+    "status": "diseased",
+    "symptoms": [
+      "Long cigar-shaped lesions",
+      "Gray-green to tan color",
+      "Lower leaves often affected first"
+    ],
+    "cause": "Exserohilum turcicum",
+    "treatment": [
+      "Evaluate severity and crop stage",
+      "Follow local fungicide recommendations",
+      "Manage residue and rotation"
+    ],
+    "prevention": [
+      "Choose resistant hybrids",
+      "Rotate away from corn",
+      "Monitor high-risk fields"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Corn_(maize)___healthy": {
+    "class_index": 10,
+    "dataset_key": "Corn_(maize)___healthy",
+    "plant": "Corn (maize)",
+    "condition": "Healthy",
+    "status": "healthy",
+    "symptoms": [
+      "No characteristic disease lesions are visible",
+      "Leaf appearance is broadly consistent with a healthy plant"
+    ],
+    "cause": "No specific disease was detected by the image classifier.",
+    "treatment": [
+      "No disease treatment is recommended from this image alone",
+      "Continue normal care and routine inspection"
+    ],
+    "prevention": [
+      "Maintain good airflow",
+      "Avoid prolonged leaf wetness",
+      "Inspect regularly for new symptoms"
+    ],
+    "warning": "A healthy prediction does not rule out early, hidden, root, or non-visible problems."
+  },
+  "Grape___Black_rot": {
+    "class_index": 11,
+    "dataset_key": "Grape___Black_rot",
+    "plant": "Grape",
+    "condition": "Black rot",
+    "status": "diseased",
+    "symptoms": [
+      "Tan leaf spots with dark margins",
+      "Tiny black fruiting bodies",
+      "Shriveled black berry mummies"
+    ],
+    "cause": "Guignardia bidwellii",
+    "treatment": [
+      "Remove mummified berries and infected debris",
+      "Improve canopy airflow",
+      "Follow local fungicide timing guidance"
+    ],
+    "prevention": [
+      "Maintain an open canopy",
+      "Remove overwintering mummies",
+      "Monitor during warm wet periods"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Grape___Esca_(Black_Measles)": {
+    "class_index": 12,
+    "dataset_key": "Grape___Esca_(Black_Measles)",
+    "plant": "Grape",
+    "condition": "Esca (black measles)",
+    "status": "diseased",
+    "symptoms": [
+      "Interveinal yellow or reddish-brown striping",
+      "Dark berry spots",
+      "Vine decline or sudden collapse"
+    ],
+    "cause": "A complex of wood-colonizing fungi",
+    "treatment": [
+      "Prune out severely affected wood",
+      "Remove badly declining vines if advised",
+      "Consult a viticulture specialist"
+    ],
+    "prevention": [
+      "Protect pruning wounds",
+      "Use clean propagation material",
+      "Avoid trunk injury"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+    "class_index": 13,
+    "dataset_key": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+    "plant": "Grape",
+    "condition": "Isariopsis leaf spot",
+    "status": "diseased",
+    "symptoms": [
+      "Angular or irregular brown spots",
+      "Leaf blighting",
+      "Premature leaf drop"
+    ],
+    "cause": "Pseudocercospora vitis",
+    "treatment": [
+      "Remove heavily infected leaves and debris",
+      "Improve canopy ventilation",
+      "Seek local disease-management guidance"
+    ],
+    "prevention": [
+      "Reduce leaf wetness",
+      "Maintain an open canopy",
+      "Sanitize infected debris"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Grape___healthy": {
+    "class_index": 14,
+    "dataset_key": "Grape___healthy",
+    "plant": "Grape",
+    "condition": "Healthy",
+    "status": "healthy",
+    "symptoms": [
+      "No characteristic disease lesions are visible",
+      "Leaf appearance is broadly consistent with a healthy plant"
+    ],
+    "cause": "No specific disease was detected by the image classifier.",
+    "treatment": [
+      "No disease treatment is recommended from this image alone",
+      "Continue normal care and routine inspection"
+    ],
+    "prevention": [
+      "Maintain good airflow",
+      "Avoid prolonged leaf wetness",
+      "Inspect regularly for new symptoms"
+    ],
+    "warning": "A healthy prediction does not rule out early, hidden, root, or non-visible problems."
+  },
+  "Orange___Haunglongbing_(Citrus_greening)": {
+    "class_index": 15,
+    "dataset_key": "Orange___Haunglongbing_(Citrus_greening)",
+    "plant": "Orange (citrus)",
+    "condition": "Huanglongbing (citrus greening)",
+    "status": "diseased",
+    "symptoms": [
+      "Asymmetrical blotchy yellow mottling",
+      "Small lopsided poorly colored fruit",
+      "Twig dieback and tree decline"
+    ],
+    "cause": "Candidatus Liberibacter species spread by citrus psyllids",
+    "treatment": [
+      "Contact local plant-health authorities",
+      "Do not move suspect plant material",
+      "Follow official psyllid-management guidance"
+    ],
+    "prevention": [
+      "Use certified disease-free stock",
+      "Monitor for psyllids",
+      "Follow quarantine regulations"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Peach___Bacterial_spot": {
+    "class_index": 16,
+    "dataset_key": "Peach___Bacterial_spot",
+    "plant": "Peach",
+    "condition": "Bacterial spot",
+    "status": "diseased",
+    "symptoms": [
+      "Dark or water-soaked leaf spots",
+      "Shot-hole appearance",
+      "Sunken cracked fruit lesions"
+    ],
+    "cause": "Xanthomonas arboricola pv. pruni",
+    "treatment": [
+      "Avoid overhead irrigation",
+      "Remove severely affected tissue where practical",
+      "Use local bactericide guidance"
+    ],
+    "prevention": [
+      "Use resistant cultivars",
+      "Avoid excessive nitrogen and injury",
+      "Use clean nursery stock"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Peach___healthy": {
+    "class_index": 17,
+    "dataset_key": "Peach___healthy",
+    "plant": "Peach",
+    "condition": "Healthy",
+    "status": "healthy",
+    "symptoms": [
+      "No characteristic disease lesions are visible",
+      "Leaf appearance is broadly consistent with a healthy plant"
+    ],
+    "cause": "No specific disease was detected by the image classifier.",
+    "treatment": [
+      "No disease treatment is recommended from this image alone",
+      "Continue normal care and routine inspection"
+    ],
+    "prevention": [
+      "Maintain good airflow",
+      "Avoid prolonged leaf wetness",
+      "Inspect regularly for new symptoms"
+    ],
+    "warning": "A healthy prediction does not rule out early, hidden, root, or non-visible problems."
+  },
+  "Pepper,_bell___Bacterial_spot": {
+    "class_index": 18,
+    "dataset_key": "Pepper,_bell___Bacterial_spot",
+    "plant": "Bell pepper",
+    "condition": "Bacterial spot",
+    "status": "diseased",
+    "symptoms": [
+      "Water-soaked spots becoming brown or black",
+      "Yellow halos or torn centers",
+      "Raised scabby fruit lesions"
+    ],
+    "cause": "Xanthomonas species",
+    "treatment": [
+      "Remove severely affected plants",
+      "Avoid handling wet foliage",
+      "Follow local bactericide guidance"
+    ],
+    "prevention": [
+      "Use disease-free seed or transplants",
+      "Rotate away from pepper and tomato",
+      "Sanitize tools and debris"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Pepper,_bell___healthy": {
+    "class_index": 19,
+    "dataset_key": "Pepper,_bell___healthy",
+    "plant": "Bell pepper",
+    "condition": "Healthy",
+    "status": "healthy",
+    "symptoms": [
+      "No characteristic disease lesions are visible",
+      "Leaf appearance is broadly consistent with a healthy plant"
+    ],
+    "cause": "No specific disease was detected by the image classifier.",
+    "treatment": [
+      "No disease treatment is recommended from this image alone",
+      "Continue normal care and routine inspection"
+    ],
+    "prevention": [
+      "Maintain good airflow",
+      "Avoid prolonged leaf wetness",
+      "Inspect regularly for new symptoms"
+    ],
+    "warning": "A healthy prediction does not rule out early, hidden, root, or non-visible problems."
+  },
+  "Potato___Early_blight": {
+    "class_index": 20,
+    "dataset_key": "Potato___Early_blight",
+    "plant": "Potato",
+    "condition": "Early blight",
+    "status": "diseased",
+    "symptoms": [
+      "Brown target-like lesions",
+      "Older leaves affected first",
+      "Yellowing and premature defoliation"
+    ],
+    "cause": "Alternaria solani",
+    "treatment": [
+      "Remove badly infected foliage",
+      "Maintain balanced fertility",
+      "Use local fungicide guidance"
+    ],
+    "prevention": [
+      "Rotate crops",
+      "Use healthy seed potatoes",
+      "Reduce plant stress and leaf wetness"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Potato___Late_blight": {
+    "class_index": 21,
+    "dataset_key": "Potato___Late_blight",
+    "plant": "Potato",
+    "condition": "Late blight",
+    "status": "diseased",
+    "symptoms": [
+      "Dark water-soaked lesions",
+      "White growth under humid conditions",
+      "Stem or tuber rot"
+    ],
+    "cause": "Phytophthora infestans",
+    "treatment": [
+      "Remove infected material promptly",
+      "Avoid overhead watering",
+      "Contact local extension services quickly"
+    ],
+    "prevention": [
+      "Use certified seed potatoes",
+      "Destroy volunteer potatoes and cull piles",
+      "Monitor regional alerts"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Potato___healthy": {
+    "class_index": 22,
+    "dataset_key": "Potato___healthy",
+    "plant": "Potato",
+    "condition": "Healthy",
+    "status": "healthy",
+    "symptoms": [
+      "No characteristic disease lesions are visible",
+      "Leaf appearance is broadly consistent with a healthy plant"
+    ],
+    "cause": "No specific disease was detected by the image classifier.",
+    "treatment": [
+      "No disease treatment is recommended from this image alone",
+      "Continue normal care and routine inspection"
+    ],
+    "prevention": [
+      "Maintain good airflow",
+      "Avoid prolonged leaf wetness",
+      "Inspect regularly for new symptoms"
+    ],
+    "warning": "A healthy prediction does not rule out early, hidden, root, or non-visible problems."
+  },
+  "Raspberry___healthy": {
+    "class_index": 23,
+    "dataset_key": "Raspberry___healthy",
+    "plant": "Raspberry",
+    "condition": "Healthy",
+    "status": "healthy",
+    "symptoms": [
+      "No characteristic disease lesions are visible",
+      "Leaf appearance is broadly consistent with a healthy plant"
+    ],
+    "cause": "No specific disease was detected by the image classifier.",
+    "treatment": [
+      "No disease treatment is recommended from this image alone",
+      "Continue normal care and routine inspection"
+    ],
+    "prevention": [
+      "Maintain good airflow",
+      "Avoid prolonged leaf wetness",
+      "Inspect regularly for new symptoms"
+    ],
+    "warning": "A healthy prediction does not rule out early, hidden, root, or non-visible problems."
+  },
+  "Soybean___healthy": {
+    "class_index": 24,
+    "dataset_key": "Soybean___healthy",
+    "plant": "Soybean",
+    "condition": "Healthy",
+    "status": "healthy",
+    "symptoms": [
+      "No characteristic disease lesions are visible",
+      "Leaf appearance is broadly consistent with a healthy plant"
+    ],
+    "cause": "No specific disease was detected by the image classifier.",
+    "treatment": [
+      "No disease treatment is recommended from this image alone",
+      "Continue normal care and routine inspection"
+    ],
+    "prevention": [
+      "Maintain good airflow",
+      "Avoid prolonged leaf wetness",
+      "Inspect regularly for new symptoms"
+    ],
+    "warning": "A healthy prediction does not rule out early, hidden, root, or non-visible problems."
+  },
+  "Squash___Powdery_mildew": {
+    "class_index": 25,
+    "dataset_key": "Squash___Powdery_mildew",
+    "plant": "Squash",
+    "condition": "Powdery mildew",
+    "status": "diseased",
+    "symptoms": [
+      "White powdery patches",
+      "Yellowing and browning leaves",
+      "Reduced vigor"
+    ],
+    "cause": "Podosphaera xanthii or related fungi",
+    "treatment": [
+      "Remove badly infected leaves if practical",
+      "Improve airflow",
+      "Use approved treatment only as directed"
+    ],
+    "prevention": [
+      "Plant resistant cultivars",
+      "Provide good spacing and sunlight",
+      "Scout regularly"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Strawberry___Leaf_scorch": {
+    "class_index": 26,
+    "dataset_key": "Strawberry___Leaf_scorch",
+    "plant": "Strawberry",
+    "condition": "Leaf scorch",
+    "status": "diseased",
+    "symptoms": [
+      "Small purple spots",
+      "Reddish-brown scorched appearance",
+      "Reduced vigor"
+    ],
+    "cause": "Diplocarpon earlianum",
+    "treatment": [
+      "Remove infected leaves and debris",
+      "Improve spacing and airflow",
+      "Follow local strawberry guidance"
+    ],
+    "prevention": [
+      "Use healthy planting material",
+      "Avoid overhead irrigation",
+      "Remove old infected debris"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Strawberry___healthy": {
+    "class_index": 27,
+    "dataset_key": "Strawberry___healthy",
+    "plant": "Strawberry",
+    "condition": "Healthy",
+    "status": "healthy",
+    "symptoms": [
+      "No characteristic disease lesions are visible",
+      "Leaf appearance is broadly consistent with a healthy plant"
+    ],
+    "cause": "No specific disease was detected by the image classifier.",
+    "treatment": [
+      "No disease treatment is recommended from this image alone",
+      "Continue normal care and routine inspection"
+    ],
+    "prevention": [
+      "Maintain good airflow",
+      "Avoid prolonged leaf wetness",
+      "Inspect regularly for new symptoms"
+    ],
+    "warning": "A healthy prediction does not rule out early, hidden, root, or non-visible problems."
+  },
+  "Tomato___Bacterial_spot": {
+    "class_index": 28,
+    "dataset_key": "Tomato___Bacterial_spot",
+    "plant": "Tomato",
+    "condition": "Bacterial spot",
+    "status": "diseased",
+    "symptoms": [
+      "Small dark water-soaked spots",
+      "Yellow halos and leaf blight",
+      "Raised scabby fruit lesions"
+    ],
+    "cause": "Xanthomonas species",
+    "treatment": [
+      "Remove severely affected tissue",
+      "Avoid overhead irrigation",
+      "Follow local bactericide guidance"
+    ],
+    "prevention": [
+      "Use disease-free seed and transplants",
+      "Rotate away from tomato and pepper",
+      "Sanitize tools and stakes"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Tomato___Early_blight": {
+    "class_index": 29,
+    "dataset_key": "Tomato___Early_blight",
+    "plant": "Tomato",
+    "condition": "Early blight",
+    "status": "diseased",
+    "symptoms": [
+      "Target-like brown lesions",
+      "Lower leaves affected first",
+      "Yellowing and leaf death"
+    ],
+    "cause": "Alternaria solani",
+    "treatment": [
+      "Remove infected lower leaves",
+      "Mulch and improve airflow",
+      "Use local fungicide guidance"
+    ],
+    "prevention": [
+      "Rotate crops",
+      "Remove infected debris",
+      "Avoid overhead watering"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Tomato___Late_blight": {
+    "class_index": 30,
+    "dataset_key": "Tomato___Late_blight",
+    "plant": "Tomato",
+    "condition": "Late blight",
+    "status": "diseased",
+    "symptoms": [
+      "Dark greasy or water-soaked lesions",
+      "Rapid expansion in cool humid weather",
+      "White growth on lesion undersides"
+    ],
+    "cause": "Phytophthora infestans",
+    "treatment": [
+      "Remove infected plants promptly",
+      "Avoid overhead watering",
+      "Contact local extension services"
+    ],
+    "prevention": [
+      "Use healthy transplants",
+      "Destroy volunteer tomatoes and potatoes",
+      "Monitor disease alerts"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Tomato___Leaf_Mold": {
+    "class_index": 31,
+    "dataset_key": "Tomato___Leaf_Mold",
+    "plant": "Tomato",
+    "condition": "Leaf mold",
+    "status": "diseased",
+    "symptoms": [
+      "Pale yellow upper-surface spots",
+      "Olive-gray velvety growth underneath",
+      "Leaf curling and drop"
+    ],
+    "cause": "Passalora fulva",
+    "treatment": [
+      "Remove infected leaves",
+      "Lower humidity and improve ventilation",
+      "Use approved treatment if needed"
+    ],
+    "prevention": [
+      "Use resistant varieties",
+      "Space and prune for airflow",
+      "Avoid wetting foliage"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Tomato___Septoria_leaf_spot": {
+    "class_index": 32,
+    "dataset_key": "Tomato___Septoria_leaf_spot",
+    "plant": "Tomato",
+    "condition": "Septoria leaf spot",
+    "status": "diseased",
+    "symptoms": [
+      "Numerous small circular spots",
+      "Gray centers with dark borders",
+      "Lower-leaf yellowing"
+    ],
+    "cause": "Septoria lycopersici",
+    "treatment": [
+      "Remove infected lower leaves",
+      "Mulch and water at the base",
+      "Use local fungicide guidance"
+    ],
+    "prevention": [
+      "Rotate crops",
+      "Remove infected debris",
+      "Stake plants and avoid overhead watering"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Tomato___Spider_mites Two-spotted_spider_mite": {
+    "class_index": 33,
+    "dataset_key": "Tomato___Spider_mites Two-spotted_spider_mite",
+    "plant": "Tomato",
+    "condition": "Two-spotted spider mite damage",
+    "status": "pest",
+    "symptoms": [
+      "Fine pale stippling",
+      "Bronzing or yellowing",
+      "Fine webbing on undersides"
+    ],
+    "cause": "Tetranychus urticae",
+    "treatment": [
+      "Inspect leaf undersides",
+      "Use water spray where appropriate",
+      "Follow integrated pest-management guidance"
+    ],
+    "prevention": [
+      "Avoid drought stress",
+      "Inspect new plants",
+      "Conserve beneficial predatory mites"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Tomato___Target_Spot": {
+    "class_index": 34,
+    "dataset_key": "Tomato___Target_Spot",
+    "plant": "Tomato",
+    "condition": "Target spot",
+    "status": "diseased",
+    "symptoms": [
+      "Brown circular lesions",
+      "Concentric rings",
+      "Leaf blighting and possible fruit lesions"
+    ],
+    "cause": "Corynespora cassiicola",
+    "treatment": [
+      "Remove infected leaves and debris",
+      "Improve airflow",
+      "Use local fungicide guidance"
+    ],
+    "prevention": [
+      "Rotate crops",
+      "Avoid overhead irrigation",
+      "Use clean transplants"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+    "class_index": 35,
+    "dataset_key": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "plant": "Tomato",
+    "condition": "Tomato yellow leaf curl virus",
+    "status": "diseased",
+    "symptoms": [
+      "Upward leaf curling",
+      "Yellowing and stunting",
+      "Flower drop and reduced fruit set"
+    ],
+    "cause": "A begomovirus transmitted mainly by whiteflies",
+    "treatment": [
+      "Remove infected plants",
+      "Manage whiteflies using IPM",
+      "Dispose of infected material appropriately"
+    ],
+    "prevention": [
+      "Use resistant varieties",
+      "Use virus-free transplants",
+      "Control weeds and volunteer hosts"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Tomato___Tomato_mosaic_virus": {
+    "class_index": 36,
+    "dataset_key": "Tomato___Tomato_mosaic_virus",
+    "plant": "Tomato",
+    "condition": "Tomato mosaic virus",
+    "status": "diseased",
+    "symptoms": [
+      "Light and dark green mosaic pattern",
+      "Leaf distortion or blistering",
+      "Stunting and uneven fruit ripening"
+    ],
+    "cause": "Tomato mosaic virus, a tobamovirus",
+    "treatment": [
+      "Remove infected plants",
+      "Disinfect tools and wash hands",
+      "Avoid tobacco contact before handling plants"
+    ],
+    "prevention": [
+      "Use resistant cultivars and certified seed",
+      "Sanitize equipment",
+      "Do not propagate symptomatic plants"
+    ],
+    "warning": "Image-based classification is not a definitive diagnosis. Confirm important cases with a local extension service or plant-health professional."
+  },
+  "Tomato___healthy": {
+    "class_index": 37,
+    "dataset_key": "Tomato___healthy",
+    "plant": "Tomato",
+    "condition": "Healthy",
+    "status": "healthy",
+    "symptoms": [
+      "No characteristic disease lesions are visible",
+      "Leaf appearance is broadly consistent with a healthy plant"
+    ],
+    "cause": "No specific disease was detected by the image classifier.",
+    "treatment": [
+      "No disease treatment is recommended from this image alone",
+      "Continue normal care and routine inspection"
+    ],
+    "prevention": [
+      "Maintain good airflow",
+      "Avoid prolonged leaf wetness",
+      "Inspect regularly for new symptoms"
+    ],
+    "warning": "A healthy prediction does not rule out early, hidden, root, or non-visible problems."
+  }
+}

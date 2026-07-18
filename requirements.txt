@@ -1,0 +1,14 @@
+torch
+torchvision
+torchmetrics
+pandas
+numpy
+matplotlib
+Pillow
+optuna
+transformers
+tqdm
+scikit-learn
+notebook
+ipykernel
+lightning
