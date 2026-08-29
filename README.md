@@ -10,6 +10,18 @@ The application supports image-based disease prediction followed by questions ab
 
 ---
 
+## Live Demo
+
+Try the deployed application:
+
+**[Open Plant Disease Diagnosis Assistant](https://plant-disease-diagnosis-dai.streamlit.app)**
+
+The Streamlit frontend is publicly hosted on **Streamlit Community Cloud** and communicates with a containerized **FastAPI** inference service deployed on **Google Cloud Run**.
+
+Users can upload a plant leaf image, receive a disease prediction with confidence, and ask follow-up questions about symptoms, causes, treatment, and prevention.
+
+---
+
 ## Demo
 
 The Streamlit web application provides an interactive workflow for plant disease diagnosis and follow-up question answering.
@@ -48,42 +60,51 @@ Users can ask follow-up questions about the diagnosis. DistilBERT identifies the
 - Interactive web frontend built with Streamlit
 - Containerized inference environment using Docker
 - CPU-optimized Docker image for lightweight deployment
-- Environment-based backend configuration for local and cloud deployment
+- FastAPI backend deployed on Google Cloud Run
+- Public frontend deployed on Streamlit Community Cloud
+- Environment-based API configuration for local and cloud deployment
 
 ---
 
 ## System Architecture
 
 ```text
-                         User
-                          │
-                          ▼
-                ┌────────────────────┐
-                │ Streamlit Frontend │
-                └─────────┬──────────┘
-                          │ HTTP
-                          ▼
-                ┌────────────────────┐
-                │  FastAPI Backend   │
-                └──────┬───────┬─────┘
-                       │       │
-                POST /predict  POST /ask
-                       │       │
-                       ▼       ▼
-                   ResNet18  DistilBERT
-                       │       │
-                       │       ▼
-                       │   Intent Prediction
-                       │       │
-                       └───┬───┘
-                           ▼
-                  Plant Disease Database
+                          User
                            │
                            ▼
-                    Diagnosis / Answer
+               ┌───────────────────────┐
+               │  Streamlit Frontend   │
+               │  Community Cloud      │
+               └───────────┬───────────┘
+                           │ HTTPS
+                           ▼
+               ┌───────────────────────┐
+               │   Google Cloud Run    │
+               │                       │
+               │   FastAPI Backend     │
+               └───────┬────────┬──────┘
+                       │        │
+                POST /predict   POST /ask
+                       │        │
+                       ▼        ▼
+                   ResNet18  DistilBERT
+                       │        │
+                       │        ▼
+                       │   Intent Prediction
+                       │        │
+                       └────┬───┘
+                            ▼
+                  Plant Disease Database
+                            │
+                            ▼
+                   Diagnosis / Answer
 ```
 
-The frontend and backend are intentionally separated. This allows the FastAPI service to run locally or on a cloud platform while the Streamlit frontend connects through the `API_URL` environment variable.
+The frontend and backend are deployed independently.
+
+The Streamlit application communicates with the FastAPI backend through HTTPS, while the backend loads the trained ResNet18 and DistilBERT models inside a Docker container running on Google Cloud Run.
+
+The backend URL is supplied to the frontend through the `API_URL` environment variable, allowing the same frontend code to work with both local and cloud deployments.
 
 ---
 
@@ -122,10 +143,14 @@ plant-disease-diagnosis-assistant/
 │
 ├── frontend/
 │   └── streamlit_app.py
+│   └── requirements.txt
+│
+├── .streamlit/
+│   └── config.toml
 │
 ├── assets/
 │   ├── background.jpg
-|   ├── demo_home.png
+│   ├── demo_home.png
 │   ├── demo_prediction.png
 │   └── demo_qa.png
 │
@@ -355,6 +380,62 @@ To create a lighter runtime environment:
 | `plant-disease-api-light` | CPU inference environment | 2.21 GB | 623 MB |
 
 The optimized image preserves the `/health`, `/predict`, and `/ask` functionality while substantially reducing deployment overhead.
+
+---
+
+## Cloud Deployment
+
+The application is deployed using separate frontend and backend services.
+
+### Backend
+
+The FastAPI inference service is packaged as a Docker container and deployed to **Google Cloud Run**.
+
+The backend exposes the following endpoints:
+
+```text
+GET  /health
+POST /predict
+POST /ask
+```
+
+The Cloud Run service is configured with:
+
+```text
+Region:        us-west2
+CPU:           1
+Memory:        2 GiB
+Min instances: 0
+Max instances: 1
+```
+
+Setting the minimum number of instances to zero allows the backend to scale down when inactive, making the deployment suitable for a low-traffic demonstration application.
+
+### Frontend
+
+The Streamlit frontend is deployed on **Streamlit Community Cloud** and communicates with the Cloud Run backend over HTTPS.
+
+```text
+Browser
+   │
+   ▼
+Streamlit Community Cloud
+   │
+   │ HTTPS
+   ▼
+Google Cloud Run
+   │
+   ▼
+FastAPI
+   │
+   ├── ResNet18 image classifier
+   ├── DistilBERT intent classifier
+   └── Structured disease database
+```
+
+### Live Application
+
+[Launch the live application](https://plant-disease-diagnosis-dai.streamlit.app)
 
 ---
 
@@ -630,13 +711,12 @@ For serious plant disease cases, users should consult a local extension service,
 
 ## Future Improvements
 
-- Deploy the FastAPI backend to a cloud platform
-- Deploy the Streamlit frontend as a public web application
 - Improve robustness on real-world leaf images outside PlantVillage
 - Add top-3 disease predictions
 - Add confidence-based warnings and out-of-distribution detection
 - Expand the disease knowledge base and question-intent dataset
 - Add automated tests and CI/CD
+- Add model monitoring and inference logging
 - Add model weight download or hosted model artifact support
 
 ---
