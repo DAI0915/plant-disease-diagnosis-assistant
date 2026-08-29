@@ -12,3 +12,5 @@ scikit-learn
 notebook
 ipykernel
 lightning
+fastapi
+uvicorn
