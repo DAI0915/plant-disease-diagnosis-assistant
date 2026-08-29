@@ -54,5 +54,5 @@ def predict_image(image, model, class_names, device, transform=None):
         "class_index": predicted_idx,
         "class_name": class_names[predicted_idx],
         "confidence": confidence,
-        "probabilities": probabilities.squeeze(0).cpu()
+        "probabilities": probabilities.squeeze(0).cpu().tolist()
     }
