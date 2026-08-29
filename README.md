@@ -15,7 +15,9 @@ The system combines image classification models with a structured plant disease 
 - Model comparison using accuracy, macro F1 score, model size, and inference latency
 - Disease explanation database including symptoms, causes, treatment, and prevention
 - Question intent classification using DistilBERT
-- Question-based response generation for plant disease diagnosis
+- Intent-aware question answering using DistilBERT and a structured disease database
+- REST API for model serving using FastAPI
+- Containerized deployment using Docker
 
 ## Dataset
 
@@ -37,8 +39,13 @@ The dataset contains plant leaf images across multiple plant species and disease
 plant-disease-diagnosis-assistant/
 ├── README.md
 ├── requirements.txt
+├── .dockerignore
+├── Dockerfile
 ├── .gitignore
 ├── demo.py
+├── app/
+│   ├── __init__.py
+│   └── main.py
 ├── notebooks/
 │   └── Plant Health AI Assistant.ipynb
 ├── src/
@@ -69,7 +76,7 @@ plant-disease-diagnosis-assistant/
     ├── resnet18_best.pth
     ├── mobilenet_v3_best.pth
     └── intent_classifier/
-
+```
 ## Models
 
 This project compares the following image classification models.
@@ -124,6 +131,69 @@ prevention
 general
 ```
 
+## API
+
+The project provides a REST API built with FastAPI for plant disease
+classification and intent-aware question answering.
+
+### Endpoints
+
+#### Health Check
+
+```http
+GET /health
+```
+
+Returns the status of the API.
+
+#### Disease Prediction
+
+```http
+POST /predict
+```
+
+Upload a plant leaf image to receive the predicted disease class,
+confidence score, and class probabilities.
+
+Example response:
+
+```json
+{
+  "class_index": 30,
+  "class_name": "Tomato___Late_blight",
+  "confidence": 0.99,
+  "probabilities": [0.001, 0.002, 0.997, ....]
+}
+```
+
+#### Question Answering
+The class_name returned by /predict can be passed to /ask together with a user question.
+
+```http
+POST /ask
+```
+
+Example request:
+
+```json
+{
+  "class_name": "Tomato___Late_blight",
+  "question": "How can I prevent this disease?"
+}
+```
+
+Example response:
+
+```json
+{
+  "question": "How can I prevent this disease?",
+  "intent": "prevention",
+  "intent_confidence": 0.98,
+  "answer": "- Use healthy transplants\n- Destroy volunteer tomatoes and potatoes\n- Monitor disease alerts"
+}
+```
+
+
 ## Example Output
 
 Example question:
@@ -159,7 +229,7 @@ Note: Image-based classification is not a definitive diagnosis. Confirm importan
 
 | Model | Test Accuracy | Test Precision | Test Recall | Test F1 |
 |---|---:|---:|---:|---:|
-| DistilBERT | 0.9491525292396545 | 0.9538462162017822 | 0.949999988079071 | 0.9484559297561646 |
+| DistilBERT | 94.92% | 95.38% | 95.00% | 94.85% |
 
 ### Training Curves
 
@@ -264,7 +334,7 @@ LOAD_SAVED_MODELS = True
 Open the main notebook:
 
 ```text
-notebooks/plant_disease_experiment.ipynb
+notebooks/Plant Health AI Assistant.ipynb
 ```
 
 The notebook includes:
@@ -325,9 +395,66 @@ Answer
 - Improve canopy airflow
 - Follow local fungicide timing guidance
 ```
+
+### 8. Run the FastAPI server
+
+After preparing the required model weights, start the API server:
+
+```bash
+uvicorn app.main:app --reload
+```
+
+Open the interactive API documentation at:
+
+```text
+http://127.0.0.1:8000/docs
+```
+
+The API provides:
+
+```text
+GET  /health
+POST /predict
+POST /ask
+```
+
+### 9. Run with Docker
+Before building the Docker image, place the required trained model weights under:
+
+```text
+models/
+├── resnet18_best.pth
+└── intent_classifier/
+```
+
+
+The API can also be run inside a Docker container.
+
+Build the Docker image:
+
+```bash
+docker build -t plant-disease-api .
+```
+
+Run the container:
+
+```bash
+docker run --rm -p 8000:8000 plant-disease-api
+```
+
+Then open:
+
+```text
+http://127.0.0.1:8000/docs
+```
+
+The Docker image packages the application code, Python dependencies,
+PyTorch models, FastAPI server, and disease database into a reproducible
+runtime environment.
+
 ## Main Files
 
-### `notebooks/plant_disease_experiment.ipynb`
+### `notebooks/Plant Health AI Assistant.ipynb`
 
 Main experiment notebook containing model training, evaluation, and analysis.
 
@@ -350,6 +477,16 @@ Question answering logic based on predicted disease and user intent.
 ### `src/models.py`
 
 Model definitions and fine-tuning utilities.
+
+### `app/main.py`
+
+FastAPI application exposing REST endpoints for health checks, image-based
+disease prediction, and intent-aware question answering.
+
+### `Dockerfile`
+
+Defines the containerized runtime environment for serving the FastAPI
+application and trained ML models.
 
 ## Limitations
 

@@ -28,5 +28,5 @@ def predict_intent(question, model, tokenizer, device):
         "intent_id": predicted_ids,
         "intent": model.config.id2label[predicted_ids],
         "confidence": confidence,
-        "probabilities": probabilities.squeeze(0).cpu()
+        "probabilities": probabilities.squeeze(0).cpu().tolist()
     }

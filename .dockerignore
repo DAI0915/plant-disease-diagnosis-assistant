@@ -1,0 +1,13 @@
+.git
+.gitignore
+__pycache__
+*.pyc
+.DS_Store
+
+notebooks/
+results/
+logs/
+sample_images/
+
+models/flexible_cnn_best.pth
+models/mobilenet_v3_best.pth
