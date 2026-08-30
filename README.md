@@ -68,37 +68,9 @@ Users can ask follow-up questions about the diagnosis. DistilBERT identifies the
 
 ## System Architecture
 
-```text
-                          User
-                           │
-                           ▼
-               ┌───────────────────────┐
-               │  Streamlit Frontend   │
-               │  Community Cloud      │
-               └───────────┬───────────┘
-                           │ HTTPS
-                           ▼
-               ┌───────────────────────┐
-               │   Google Cloud Run    │
-               │                       │
-               │   FastAPI Backend     │
-               └───────┬────────┬──────┘
-                       │        │
-                POST /predict   POST /ask
-                       │        │
-                       ▼        ▼
-                   ResNet18  DistilBERT
-                       │        │
-                       │        ▼
-                       │   Intent Prediction
-                       │        │
-                       └────┬───┘
-                            ▼
-                  Plant Disease Database
-                            │
-                            ▼
-                   Diagnosis / Answer
-```
+<p align="center">
+  <img src="assets/system_architecture.svg" alt="System Architecture" width="750">
+</p>
 
 The frontend and backend are deployed independently.
 
