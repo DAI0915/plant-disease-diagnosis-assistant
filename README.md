@@ -124,6 +124,7 @@ plant-disease-diagnosis-assistant/
 │   ├── background.jpg
 │   ├── demo_home.png
 │   ├── demo_prediction.png
+│   ├── system_architecture.svg
 │   └── demo_qa.png
 │
 ├── notebooks/
